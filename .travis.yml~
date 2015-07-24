@@ -3,9 +3,6 @@ python:
  #- "3.4"
  - "2.7"
 # command to install dependencies
-before_install:
- - export DJANGO_SETTINGS_MODULE=eb_django_app.neo4j.neo4j.settings
-
 install:
  - pip install -q Django==$DJANGO_VERSION
  - pip install neo4django
